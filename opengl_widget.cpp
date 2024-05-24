@@ -6,7 +6,7 @@
 OpenGLWidget::OpenGLWidget()
 {
     setWindowTitle("OpenGL ES 2.0, Qt6, C++");
-    resize(380, 380);
+    resize(500, 500);
 
     QSurfaceFormat surfaceFormat;
     // surfaceFormat.setDepthBufferSize(24); // Doesn't work on QOpenGLWidget for WebAssembly
