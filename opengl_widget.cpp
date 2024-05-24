@@ -10,7 +10,8 @@ OpenGLWidget::OpenGLWidget()
 
     QSurfaceFormat surfaceFormat;
     // surfaceFormat.setDepthBufferSize(24); // Doesn't work on QOpenGLWidget for WebAssembly
-    surfaceFormat.setSamples(4); // Doesn't work on QOpenGLWidget for WebAssembly
+    surfaceFormat.setSamples(4); // Doesn't work on QOpenGLWidget for WebAssembly in Qt 6.6.3 but
+                                 // works in Qt 6.7.0
     setFormat(surfaceFormat);
 }
 
