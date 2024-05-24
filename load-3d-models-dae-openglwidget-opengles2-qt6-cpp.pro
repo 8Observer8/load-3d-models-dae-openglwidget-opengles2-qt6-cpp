@@ -1,4 +1,4 @@
-QT += core gui openglwidgets widgets xml
+QT += core gui openglwidgets xml
 
 win32: LIBS += -lopengl32
 
